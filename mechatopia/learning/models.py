@@ -16,7 +16,7 @@ class Lesson_group(models.Model):
 	Lesson_group_ID = models.BigAutoField(auto_created=True, primary_key=True)
 	Lesson_group_name = models.CharField(max_length=200 ,null=True)
 	Lesson_group_description = models.TextField(null=True)
-	Lesson_group_admin_id = models.IntegerField(null=True)
+	Lesson_group_admin_add = models.IntegerField(null=True)
 	Lesson_group_recent_date = models.CharField(max_length=15 ,null=True)
 	Lesson_group_pic = models.CharField(max_length=200 ,null=True)
 

@@ -22,6 +22,8 @@ from task import views as views3
 urlpatterns = [
     path('admin/', admin.site.urls),
 
+]
+"""
 ### users
     path('', views1.welcome),
     path('login/', views1.login),
@@ -33,11 +35,12 @@ urlpatterns = [
 
 ### learning
 
-### task
+### task  
+
 ]
 
 
-"""
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/<int:stid>/', views1.home),
