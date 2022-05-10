@@ -1,0 +1,27 @@
+- in apache/conf/extra/httpd-vhosts.conf
+
+# lab
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/labdemo/sitea"
+    ServerName sitea.com
+    <Directory "D:/xampp/htdocs/labdemo/sitea">
+    </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/labdemo/siteb"
+    ServerName siteb.com
+    <Directory "D:/xampp/htdocs/labdemo/siteb">
+    </Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "D:/xampp/htdocs/labdemo/parentsite"
+    ServerName parentsite.com
+    <Directory "D:/xampp/htdocs/labdemo/parentsite">
+    </Directory>
+</VirtualHost>
+
+########################################
+
+- put folder labdemo to .....
